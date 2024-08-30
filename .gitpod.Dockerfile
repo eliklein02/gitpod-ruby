@@ -1,1 +1,1 @@
-FROM ruby:2.6.8
+FROM ubuntu:20.04
