@@ -6,7 +6,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Update the package list and install necessary packages
 RUN apt-get update && apt-get install -y \
-RUN sudo apt-get update && sudo apt-get install -y \
     build-essential \
     libssl-dev \
     libreadline-dev \
