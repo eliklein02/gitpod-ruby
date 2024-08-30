@@ -21,6 +21,8 @@ RUN apt-get update && apt-get install -y \
     libgdbm-dev \
     libdb-dev \
     uuid-dev \
+    imagemagick \
+    libmagickwand-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
