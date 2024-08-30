@@ -23,7 +23,6 @@ RUN apt-get update && apt-get install -y \
     uuid-dev \
     imagemagick \
     libmagickwand-dev \
-    zbar \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
