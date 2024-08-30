@@ -18,7 +18,7 @@ RUN sudo apt-get update && sudo apt-get install -y \
     libffi-dev \
     libgdbm-dev \
     libdb-dev \
-    uuid-dev
+    uuid-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
