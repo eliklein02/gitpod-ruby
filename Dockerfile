@@ -6,10 +6,19 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Update the package list and install necessary packages
 RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && sudo apt-get install -y \
     build-essential \
-    curl \
-    git \
-    vim \
+    libssl-dev \
+    libreadline-dev \
+    zlib1g-dev \
+    libbz2-dev \
+    libsqlite3-dev \
+    libncurses5-dev \
+    libncursesw5-dev \
+    libffi-dev \
+    libgdbm-dev \
+    libdb-dev \
+    uuid-dev
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
