@@ -2,7 +2,7 @@
 FROM ubuntu:20.04
 
 # Set the environment variable to non-interactive to avoid prompts during package installation
-ENV DEBIAN_FRONTEND=noninteractive
+# ENV DEBIAN_FRONTEND=noninteractive
 
 # Update the package list and install necessary packages
 RUN apt-get update && apt-get install -y \
