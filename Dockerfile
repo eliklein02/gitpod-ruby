@@ -25,6 +25,9 @@ RUN apt-get update && apt-get install -y \
     libmagickwand-dev \
     libpq-dev \
     nodejs \
+    sqlite3 \
+    libffi-dev \
+    libffi \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
